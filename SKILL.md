@@ -40,3 +40,6 @@ Ask for product name, product photos or reference video, target buyer, truthful 
 - Make the sales message persuasive without false urgency or unverified claims.
 - Do not assume automatic video rendering, scheduling, or posting capabilities. Require supported integrations and user authorization for publishing.
 - Default to two distinct videos per day: one problem-solution demonstration and one benefit-focused storytelling video.
+
+## Voice continuity for separately generated scenes
+When scene voices differ or dialogue is cut off, follow [references/voiceover-continuity.md](references/voiceover-continuity.md). Prefer one continuous Vietnamese voiceover track, verify actual clip durations, mute inconsistent source speech and synchronize narration after visual assembly. Do not claim that audio exists until it has been generated.
