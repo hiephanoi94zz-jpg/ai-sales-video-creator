@@ -3,7 +3,7 @@ name: ai-sales-video-creator
 description: Create Vietnamese short-form product sales video production packages for TikTok and Facebook Reels with consistent AI characters, shot prompts, voiceover and publishing checklists.
 ---
 
-# AI Sales Video Creator — Level 2
+# AI Sales Video Creator — Level 2 (v2.0)
 
 ## Goal
 Produce two 9:16 vertical short-form video production packages per day for TikTok and Facebook Reels. Prioritize free or low-cost tools. Do not claim a rendered video or published post exists unless the corresponding tool has completed it.
@@ -43,3 +43,17 @@ Ask for product name, product photos or reference video, target buyer, truthful 
 
 ## Voice continuity for separately generated scenes
 When scene voices differ or dialogue is cut off, follow [references/voiceover-continuity.md](references/voiceover-continuity.md). Prefer one continuous Vietnamese voiceover track, verify actual clip durations, mute inconsistent source speech and synchronize narration after visual assembly. Do not claim that audio exists until it has been generated.
+
+## V2.0 — Dynamic fashion, character, outfit and voice continuity
+For fashion/model videos, **always** follow [references/dynamic-fashion-directing.md](references/dynamic-fashion-directing.md) before writing the storyboard or prompts. This reference is mandatory for requests involving people modeling clothes, walking, dancing, posing, or displaying outfits.
+
+### Mandatory separate locks
+- **IDENTITY LOCK:** Same approved face/reference image and appearance in every scene.
+- **OUTFIT LOCK:** Same original garment photo, cut, colors, pattern, logo and details. Map each requested outfit to its intended scene; never silently swap garments.
+- **VOICE LOCK:** Same Vietnamese voice and narration style across scenes; prefer one continuous voiceover track when editing.
+
+### Motion-direction requirement
+Every scene must specify a **distinct primary movement**, secondary gesture, natural expression, pacing, realistic weight shift, fabric motion, and camera movement. Favor energetic but believable actions such as lively steps, playful side steps, small bounces, quarter turns, skirt twirls and varied poses, tailored to the actual garment. Avoid stiff/robotic posture, identical repeated motions, fixed smiles and unnatural jumping. Keep movements feasible for short clips and full-body framing when showcasing an outfit.
+
+### Timing and QC gate
+Check actual generated clip and narration durations, not just word-count estimates. Never cut off a spoken word or claim verified sync without reviewing the output. Before delivery, explicitly check character identity, garment accuracy, expressive natural movement, voice continuity and clip-by-clip timing. Regenerate only the defective scene with the original references where possible. Explain that prompts improve consistency but cannot guarantee error-free generation.
