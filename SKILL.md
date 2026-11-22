@@ -3,7 +3,10 @@ name: ai-sales-video-creator
 description: Create Vietnamese short-form product sales video production packages for TikTok and Facebook Reels with consistent AI characters, shot prompts, voiceover and publishing checklists.
 ---
 
-# AI Sales Video Creator — Level 2 (v2.0)
+# AI Sales Video Creator — Level 2 (v3.0 — Production Reliability)
+
+## Mandatory v3 production protocol
+For any fashion sales video with dancing, TikTok trending moves, lip sync or multi-scene outfit changes, **first follow [references/tiktok-dance-production-v3.md](references/tiktok-dance-production-v3.md)**. Its preflight, pilot-test, beat-map, voice-mode choice and PASS/FAIL quality gates take precedence over earlier generic movement advice. Do not generate all scenes before the pilot passes. Do not call a dance currently trending without checking current evidence. If the user supplies a trend video, extract the dance moves and adapt them for the outfit. Repair failed scenes individually. Explicitly distinguish untested prompts from reviewed video outputs.
 
 ## Goal
 Produce two 9:16 vertical short-form video production packages per day for TikTok and Facebook Reels. Prioritize free or low-cost tools. Do not claim a rendered video or published post exists unless the corresponding tool has completed it.
